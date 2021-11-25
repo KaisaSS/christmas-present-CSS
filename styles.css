@@ -29,6 +29,9 @@ body {
   z-index: 1;
   padding: 0 2px;
   background-color: rgb(135, 44, 44);
+  top: 0;
+  left: 0;
+  transition: top ease-out 0.5s, left ease-out 0.5s, transform ease-out 0.5s;
 }
 
 .box span,
